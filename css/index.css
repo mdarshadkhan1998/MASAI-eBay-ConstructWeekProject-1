@@ -9,7 +9,7 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     background-color: rgb(255, 255, 255);
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     width: 76%;
     margin: auto;    
 }
@@ -78,7 +78,7 @@ body{
     width: auto;
     height: auto;
     
-    /* border: 1px solid black; */
+    border: 1px solid rgb(255, 255, 255);
 }
 /* links div adjust */
 #links>div{
@@ -123,6 +123,7 @@ body{
     width: auto;
     margin: auto;
     margin-bottom: 10px;
+    
 }
 #cover{
     width: 100%;
@@ -161,14 +162,6 @@ body{
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
   
   /* The dots/bullets/indicators */
   .dot {
@@ -195,7 +188,9 @@ body{
     width: 100%;
     height: 100%;
   }
-
+/* .slidingImagesTop{
+    z-index: -3;
+} */
  
   /* On smaller screens, decrease text size */
   @media all and (max-width:1000px){

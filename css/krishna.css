@@ -1,0 +1,77 @@
+  /* ========================================Seller updates====================< */
+  .dropbtnseller1 {
+
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    
+  }
+  #su1{
+    margin-top:-18px;
+  }
+
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdownseller-contents1 {
+    display: none;
+    position: relative;
+    background-color:  #C5E5FB
+    ;
+    padding:20px;
+    /* margin:auto; */
+    margin-bottom:10px;
+    /* margin-left:465px; */
+    width: 90%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdownseller-contents1 a {
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdownseller-contents1 a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover  */
+   .dropdownseller1:hover .dropdownseller-contents1 {
+    display: flex;
+  } 
+  #sellerandupdates1{
+   
+    /* display:flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; 
+    gap:10px;
+     
+  }
+  #sellerandupdates1 div{
+    justify-content: center;
+  }
+  #sellerandupdates1 >div>a:last-child{
+    font-size: 12px;
+    margin-left: 30%;
+  }
+  #btn1{
+    
+    color:  #fff;
+    background-color: rgb(46, 46, 202);
+    text-align: center;
+    border: 1px solid black;
+    margin:auto;
+    
+  }
+  #sellerandupdates1 p{
+    color: #A00739;
+    white-space: nowrap;
+    
+  }
