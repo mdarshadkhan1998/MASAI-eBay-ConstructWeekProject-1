@@ -5,13 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style>
+    <style>
     #main{
         width:100%;
-        height:2500px;
+        height:2700px;
         /* border: 1px solid red; */
 
     }
+
+    #div1{
+    /* position:absolute; */
+    /* position: absolute; */
+    margin: auto;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr;
+    height: auto;
+    border: 10px solid rgb(255, 255, 255);
+    justify-content: center;
+    /* position: fixed; */
+    /* line-61 and line-29 uncomment to remove fix position of header */
+    background-color: white;
+}
+
+/* logo and start selling button grig adjust */
+#navBar{
+    display: grid;
+    grid-template-columns: 7.2fr 1fr;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+    align-items: center;
+    margin: auto;
+}
+/* image logo div size*/
+#ebayLogo{
+    border: 1px solid rgb(255, 255, 255);
+}
+/* image logo size */
+#logo{
+    height: 61px;
+    width:110px;
+}
+
+/* Start Selling button */
+#startSelling{
+    background-color: rgb(54,101,243);
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    width: 140px;
+    height: 40px;
+    /* margin-right: 24px; */
+    border: 1px solid rgb(255, 254, 254);
+}
+/* options below nav */
+#links{
+    display:flex;
+    width: auto;
+    height: auto;
+    margin: auto;
+    
+    /* border: 1px solid black; */
+}
+/* links div adjust */
+#links>div{
+    display: flex;
+    width: auto;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.option{
+    color: black;
+    text-decoration: none;
+
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);
+    width:auto;
+    margin-right: 37px;
+    
+}
+  
+.sticky {
+   position: fixed;
+   top: -15px;
+   width: auto;
+   background-color: #ffffff;
+   z-index: 1;  
+}
+@media all and (max-width:780px){
+
+    
+  }
+
+
+
+
+
+
  #container{
     display:flex;
     width:90%;
@@ -299,24 +389,31 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
        .item1{
            width:45%;
            height: 150px;
-           background-color:#C5E5FB ;}
+           background-color:#C5E5FB ;
+        }
        .item2{
            width:45%;
            height:150px;
            background-color:#659EFF;
            position: absolute;
-           bottom:-1700px ;
+           bottom:-1850px ;
            right: 75px;
         }
          .item3{
-            width: 40%;
-            height:70%;
+             width: 40%; 
+            height:auto;
             background-color: whitesmoke;
             position: absolute;
            margin-top:85px;
            margin-left:50px;
            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+           
          }  
+         .item3-div1{
+             width:90%;
+             height:auto;
+             /* border:1px solid red */
+         }
         .a{
     font-size: 40px;
     font-family: sans-serif;
@@ -324,6 +421,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin-top:30px;
     margin-left: 50px;
     font-family: "Market Sans Bold", Sans-serif;
+    width: auto;
         }
         .div-a1{
             margin-left: 50px;
@@ -331,7 +429,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             margin-top:20px;
             width: auto;
 
-        }
+        } 
         .div-a2{
             margin-left: 50px;
             font-size: 16px;
@@ -348,6 +446,53 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         } 
 
 
+        #kdiv9{
+    padding-top: 80px;
+    border: 1px solid rgb(255, 255, 255);
+    height: fit-content;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    margin: auto;
+    margin-top:30px;
+}
+/* Footer Part-1 */
+#kfooter-p1{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+/* Footer Part-1 ancor tag adjustment */
+#kfooter-p1 a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #413d3d;
+    font-weight: 600;
+}
+/* Footer Part-2 */
+/* Facebook , Instagram and Linkedin href and logo adjustment */
+#kfooter-p2{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+}
+/* Footer Part-3 */
+#kfooter-p3{
+    margin: auto;
+    font-size: 12px;
+    color: #696666;
+}
+/* Footer Part-3 links adjustment */
+#klast{
+    text-decoration: none;
+    color: rgb(27, 121, 184);
+}
+
+
+
+
 </style>
 
 
@@ -355,73 +500,89 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 <body>
     <div id="main">
 
-        <!-- ***************heading div*************** -->
-<!-- **********************div1********************** -->
+        <div id="div1" class="header" >
+            <!-- Nav Bar Header -->
+            <!-- Ebay Logo and START SELLING Button -->
+            <div id="navBar">
+                <!-- Ebay Logo -->
+                <div id="ebayLogo">
+                    <img id="logo" title="eBay Logo" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/EBAY-LOGO.webp" width="190" height="98"/>                
+                </div>
+                <!-- START SELLING Button -->
+                <div id="start">
+                    <button title="Register Here" id="startSelling">START SELLING</button>
+                </div>
+            </div>
+            <!-- Links of options on NAV BAR -->
+            <div id="links">
+                <!-- Getting Started -->
+                <div id ="gs" ><a class="option" title="Getting Started" href="gettingStarted.html">Getting Started</a></div>
+                <!-- Seller Updates -->
+                <div id ="su" ><a class="option" title="Seller Updates" href="sellerUpdates.html">Seller Updates</a></div>
+                <!-- About Us -->
+                <div id ="au" ><a class="option" title="About Us" href="aboutUs.html">About Us</a></div>
+                <!-- roduct Listing -->
+                <div id ="pl" ><a class="option" title="Product Listing" href="productListing.html">Product Listing</a></div>
+                <!-- Shipping & Payments -->
+                <div id ="s&p" ><a class="option" title="Shipping & Payments" href="shipping.html">Shipping & Payments</a></div>
+                <!-- Marketing & Promotions -->
+                <div id ="m&p" ><a class="option" title="Marketing & Promotions" href="marketing.html">Marketing & Promotions</a></div>
+                
+            </div>
+        </div>
 
     <div id="container">
         <div id="first"><h1>Why Sell On eBay</h1></div>
         <div id="second"></div>
         <div>
-         <div id="thirdone"></div>
-         <div id="thirdsecond"></div>
-         </div>
-       </div>
-            <h1 class="h" >What makes us different</h1>
-
-<!--****************   what make us diffrent div ***************-->
-
-<!-- ****************************div2******************** -->
-
+            <div id="thirdone"></div>
+            <div id="thirdsecond"></div>
+        </div>
+      </div>
+      <h1 class="h" >What makes us different</h1>
       <div class="child5">
         <div class="child6">
         <div class="child6-1">
-            <img class="pic"
-            src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/purpose-why-sell-on-ebay.png">
+        <img class="pic"
+         src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/purpose-why-sell-on-ebay.png">
         </div>
         <div>
-             <h3 class="pur">Purpose</h3>
-             <p>We exist to empower sellers and create economic opportunity for all.</p>  
+            <h3 class="pur">Purpose</h3>
+        <p>We exist to empower sellers and create economic opportunity for all.</p>  
         </div>
     </div> 
     <div class="child6">
         <div class="child6-1">
-             <img class="pic"
-              src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/partnershop-why-sell-on-ebay.png">
-        </div>
+            <img class="pic"
+             src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/partnershop-why-sell-on-ebay.png">
+            </div>
         <div>
-               <h3 class="pur">Partnership</h3>
-              <p>We never compete with our sellers. We only win when they succeed.</p>  
+            <h3 class="pur">Partnership</h3>
+            <p>We never compete with our sellers. We only win when they succeed.</p>  
         </div>
     </div>
     <div class="child6">
         <div class="child6-1">
-             <img class="pic"
+            <img class="pic"
              src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/scale-why-sell-on-ebay.png">
-       </div>
+            </div>
         <div>
-              <h3 class="pur">Scale</h3>
-              <p>Our marketplace is one of the largest and most vibrant in the world for discovering great value and unique selection.</p>  
+            <h3 class="pur">Scale</h3>
+            <p>Our marketplace is one of the largest and most vibrant in the world for discovering great value and unique selection.</p>  
         </div>
     </div>
     
-        </div>    
-        <h1 class="with">With eBay You Experience</h1> 
-
-<!-- *******************grid co0ntainer div for ease off use -->
-
-<!-- *******************div3*********************************** -->
-
-
+        </div>    <h1 class="with">With eBay You Experience</h1> 
     <div id="container-3">
         <div class="child-3-1">
         <div class="border">
         <div>
-            <img class="img-pic"
-            src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/Ease-of-use.png" alt="">
+        <img class="img-pic"
+        src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/Ease-of-use.png" alt="">
         </div>
         </div>
-             <h2 class="ease">Ease of use</h2>
-              <p class="paraha">Complete your registration in a few simple steps and get post your listings online in a hassle-free manner either in fixed price or auction style. Manage your business and get insights through the inbuilt account management panel.</p>
+        <h2 class="ease">Ease of use</h2>
+        <p class="paraha">Complete your registration in a few simple steps and get post your listings online in a hassle-free manner either in fixed price or auction style. Manage your business and get insights through the inbuilt account management panel.</p>
         </div>
         <div class="child-3-2">
             <div class="border">
@@ -476,17 +637,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         </div>
         
             </div>
-
-
 <h1 class="benefits">Benefits of Selling on eBay</h1>
-
-
-<!-- ********************hover div*****************======================== -->
-
-<!--************************ div4*********************************************** -->
-
-
-
 <div id="container-4">
     <div class="child-4-1">
         <img  class="global-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh0PDI4lTJIV-NEPaE4EDvB-sVOa2xZMIL21qKZPZZHdhr_lMl" alt="">
@@ -496,52 +647,47 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     <div class="child-4-2">
         <img  class="global-img"
         src="https://economictimes.indiatimes.com//photo/82034144.cms" alt="">
-       <h3 class="sell2">Low Set Up Cost</h3>
-       <p class="p">With free registration, enjoy the benefits of allotted free monthly listings and pay the final value fee only when your item sells.</p>
+   <h3 class="sell2">Low Set Up Cost</h3>
+   <p class="p">With free registration, enjoy the benefits of allotted free monthly listings and pay the final value fee only when your item sells.</p>
     </div>
     <div class="child-4-3">
         <img  class="global-img"
         src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSv3VI3XgVuEBhfG3ZyDrt9m9ypRZGeEP0TxV6jlE7Jo17lJ_wY" alt="">
-        <h3 class="sell3">Immediate Payments</h3>
-        <p class="p">With free registration, enjoy the benefits of allotted free monthly listings and pay the final value fee only when your item sells.</p>
+   <h3 class="sell3">Immediate Payments</h3>
+   <p class="p">With free registration, enjoy the benefits of allotted free monthly listings and pay the final value fee only when your item sells.</p>
     </div>
     <div class="child-4-4">
         <img  class="global-img"
         src="https://economictimes.indiatimes.com//photo/81987173.cms" alt="">
-       <h3 class="sell4">Immediate Payments</h3>
-       <p class="p">Sell directly to the end consumer and enjoy better profit margins.</p>
+   <h3 class="sell4">Immediate Payments</h3>
+   <p class="p">Sell directly to the end consumer and enjoy better profit margins.</p>
     </div>
     <div class="child-4-5">
         <img  class="global-img"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGQkibfCYj-VZb6LIpjqfsyx_8Rg9dwYZEnxDGy-IJh1z90jwA" alt="">
-        <h3 class="sell5">Immediate Payments</h3>
-        <p class="p">Your online shop stays open for business – 24x7, 365 days a year, every season.</p>
+   <h3 class="sell5">Immediate Payments</h3>
+   <p class="p">Your online shop stays open for business – 24x7, 365 days a year, every season.</p>
     </div>
 </div>
-
-<!-- *********************last div absolute div****************** -->
-<!-- *******************************div5************************************************** -->
-
-
     <div id="container-5">
         <div class="item1"></div>
         <div class="item2"></div>
         <div class="item3">
             <h1 class="a">A true partner to sellers</h1>
-            <div>
+            <div class="item3-div1" >
                 <p class="div-a1">For 25 years, we have worked to create a marketplace that (a) <br>
                     is inclusive and fair, (b) fosters global trade, and (c) empowers  <br> 
                     entrepreneurship. We only win when our sellers succeed. That’s <br> 
                     why we’re committed to investing in what they need to grow and thrive.</p>
             </div>
-            <div>
+            <div  class="item3-div1">
                 <p class="div-a2">Our marketplace is human-centric and human-powered. We <br>
                     connect millions of buyers and sellers around the world, <br>
                     empowering people and creating economic opportunity for all.<br>
                      We encourage and support both sophisticated exporters as also <br>
                      sellers just beginning to export.
             </div>
-            <div>
+            <div  class="item3-div1">
                 <p  class="div-a2">Small businesses have been essential to making eBay one of the  <br>
                     world’s largest and most vibrant marketplaces for discovering <br>
                      great value and unique inventory. In turn, eBay empowers small <br>
@@ -557,6 +703,52 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         </div>
             </div>
    
+
+            <div id="kdiv9">
+                <!-- Part-1 of footer -->
+                <div id="kfooter-p1">
+                    <a href="aboutUs.html">About eBay</a>
+                    <a href="startSelling.html">Start Selling</a>
+                    <a href="sellerUpdates.html">Seller Community</a>
+                    <a href="https://sellglobal.ebay.in/seller-center/training-sessions/">Training sessions</a>
+                    <a href="https://sellglobal.ebay.in/seller-center/faqs/">FAQ</a>
+                </div>
+                <!-- Part-2 of footer -->
+                <div id="kfooter-p2">
+                    <!-- Facebook , Instagram and Linkedin href and logo adjustment -->
+                    <div class="kfacebook">
+                        <a href="https://www.facebook.com/ebaysellersindia" target="_blank">
+                            <img width="30" height="30" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/facebook-1.png" class="" alt="" >								
+                        </a>
+                    </div>
+                    
+                    <div class="kinstagram">
+                        <a href="https://www.instagram.com/_mad___boxer_/" target="_blank">
+                            <img width="30" height="30" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/instagram-1.png" class="" alt="" >								
+                        </a>
+                    </div>
+                    <div class="klinkedin">
+                        <a href="https://www.linkedin.com/in/arshad-khan-350206154" target="_blank">
+                            <img width="30" height="30" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/linkedin-1.png" class="" alt="" >								
+                        </a>
+                    </div>
+                </div>
+                <!-- Part-3 of footer -->
+                <div id="kfooter-p3">
+                <!-- links for User Agreement and all -->
+                <!-- © 2021 eBay Inc. User Agreement, User Privacy Notice, Cookies. -->        
+                    <a>© 2021 eBay Inc.</a>
+                    <a id="klast" href="https://www.ebay.in/pages/help/policies/user-agreement.html">User Agreement</a>
+                    <a>,</a>
+                    <a id="klast" href="https://www.ebay.in/pages/help/policies/privacy-policy.html">User Privacy Notice</a>
+                    <a>,</a>
+                    <a id="klast" href="https://www.ebay.in/pages/help/account/cookies-web-beacons.html">Cookies</a>
+                    <a>.</a>
+                </div>
+            </div>
+                </div>
+
+
         </div>
 </body>
 </html>

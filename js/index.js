@@ -1,9 +1,12 @@
 //Div-1
 // start selling button 
 document.querySelector("#startSelling").addEventListener("click", function(){
-    window.location.href="startSelling.html";
+    window.location.href="page1.html";
 })
 
+document.querySelector("#logo").addEventListener("click", function(){
+  window.location.href="";
+})
 
 
 // fix head code

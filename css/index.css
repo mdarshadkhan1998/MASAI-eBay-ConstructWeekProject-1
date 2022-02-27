@@ -44,7 +44,7 @@ body{
 }
 
 /* logo and start selling button grig adjust */
-#navBar{
+#navBar1{
     display: grid;
     grid-template-columns: 7.2fr 1fr;
     height: auto;
@@ -63,14 +63,26 @@ body{
 
 /* Start Selling button */
 #startSelling{
+    
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px;
+    /* margin-right: 24px; */
+    text-decoration: none;
+}
+#start{
     background-color: rgb(54,101,243);
     color: white;
     font-weight: 600;
     font-size: 13px;
-    width: 140px;
-    height: 40px;
+    width: 160px;
+    padding-top: 9px;
+    height: 30px;
+    
+    
     /* margin-right: 24px; */
-    border: 1px solid rgb(255, 254, 254);
+    
 }
 /* options below nav */
 #links{

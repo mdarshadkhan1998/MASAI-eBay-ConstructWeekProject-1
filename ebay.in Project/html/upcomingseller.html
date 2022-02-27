@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/upcomingseller.css"/>
+    <!-- calender css -->
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/evo-calendar.min.css"/>
+    <link rel="stylesheet" href="../css/evo-calendar.royal-navy.min.css"/>
+</head>
+
+<body>
+    <!-- div-1----HEADER -->
+    <div id="div1">
+        <!-- Nav Bar Header -->
+        <!-- Ebay Logo and START SELLING Button -->
+        <div id="navBar">
+            <!-- Ebay Logo -->
+            <div id="ebayLogo">
+                <img id="logo" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/EBAY-LOGO.webp" width="190" height="98"/>                
+            </div>
+            <!-- START SELLING Button -->
+            <div id="start">
+                <button id="startSelling">START SELLING</button>
+            </div>
+        </div>
+        <!-- Links of options on NAV BAR -->
+        <div id="links">
+            <!-- Getting Started -->
+            <div id ="gs" class="option"><a href="gettingStarted.">Getting Started</a></div>
+            <!-- Seller Updates -->
+            <div id ="su" class="option"><a href="../html/index.html">Seller Updates</a></div>
+            <!-- About Us -->
+            <div id ="au" class="option"><a href="aboutUs.html">About Us</a></div>
+            <!-- roduct Listing -->
+            <div id ="pl" class="option"><a href="productListing.html">Product Listing</a></div>
+            <!-- Shipping & Payments -->
+            <div id ="s&p" class="option"><a href="shipping.html">Shipping & Payments</a></div>
+            <!-- Marketing & Promotions -->
+            <div id ="m&p" class="option"><a href="marketing.html">Marketing & Promotions</a></div>
+            
+        </div>
+    </div>
+    <!-- ************************************************************** -->
+    <!-- heading navbar -->
+    <div id="navbar">
+        <div id="first">
+            <h1>Upcoming Seller Training Sessions</h1>
+        </div>
+        <div id="second"></div>
+        <div>
+            <div id="thirdone"></div>
+            <div id="thirdsecond"></div>
+        </div>
+    </div>
+    <!-- *******************category part************************************** -->
+    <div id="parent">
+        <div class="firstselect">
+            <div class="logo"><i class="fa fa-folder-o" aria-hidden="true"></i></div>
+            <div class="selecttag">
+                <select class="category">
+                    <option>Category</option>
+                    <option>eBay Overview</option>
+                    <option>Marketing & Promotion </option>
+                    <option>Product Listing</option>
+                    <option>Product Shipping</option>
+                    <option>Seller Perfomance</option>
+                </select>
+            </div>
+          
+        </div>
+        <div class="firstselect">
+            <div class="logo"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
+            <div class="selecttag">
+                <select class="lebel">
+                    <option>Lebel</option>
+                    <option>Understanding Seller Panel</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="endselect">
+            <div class="fpart">
+                <div class="logo"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                <div class="selectmonthdiv">
+                    <select class="month">
+                        <option>Select Month</option>
+                        <option>January</option>
+                        <option>Febuary</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+
+                    </select>
+                </div>
+                <div>
+                    <select class="year">
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                    </select>
+
+                </div>
+            </div>
+          
+            <div class="spart">
+                <div class="logo"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+                    <input id="starttime" type="text" placeholder="Start time" value="" />
+                    <input id="endtime" type="text" placeholder="End time" value="" />
+            </div>
+            <div class="tpart">
+                <button id="blueclr">MONTHLY</button>
+                <button>WEEKLY</button>
+                <button>DAILY</button>
+                <button>GRID</button>
+            </div>
+
+        </div>
+        <div id="hoverreset">
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+
+        
+    </div>
+    <div></div>
+    <div></div>
+<!-- calender -->
+    <div class="hero">
+        <div id="calendar"></div>
+    </div>
+
+    <!-- Div-9----Footer-->
+    <div id="div9">
+        <!-- Part-1 of footer -->
+        <div id="footer-p1">
+            <a href="aboutUs.html">About eBay</a>
+            <a href="startSelling.html">Start Selling</a>
+            <a href="sellerUpdates.html">Seller Community</a>
+            <a href="https://sellglobal.ebay.in/seller-center/training-sessions/">Training sessions</a>
+            <a href="https://sellglobal.ebay.in/seller-center/faqs/">FAQ</a>
+        </div>
+        <!-- Part-2 of footer -->
+        <div id="footer-p2">
+            <!-- Facebook , Instagram and Linkedin href and logo adjustment -->
+            <div class="facebook">
+                <a href="https://www.facebook.com/ebaysellersindia" target="_blank">
+                    <img width="30" height="30" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/facebook-1.png" class="" alt="" >								
+                </a>
+            </div>
+            
+            <div class="instagram">
+                <a href="https://www.instagram.com/_mad___boxer_/" target="_blank">
+                    <img width="30" height="30" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/instagram-1.png" class="" alt="" >								
+                </a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/arshad-khan-350206154" target="_blank">
+                    <img width="30" height="30" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/linkedin-1.png" class="" alt="" >								
+                </a>
+            </div>
+        </div>
+        <!-- Part-3 of footer -->
+        <div id="footer-p3">
+        <!-- links for User Agreement and all -->
+        <!-- © 2021 eBay Inc. User Agreement, User Privacy Notice, Cookies. -->        
+            <a>© 2021 eBay Inc.</a>
+            <a id="last" href="https://www.ebay.in/pages/help/policies/user-agreement.html">User Agreement</a>
+            <a>,</a>
+            <a id="last" href="https://www.ebay.in/pages/help/policies/privacy-policy.html">User Privacy Notice</a>
+            <a>,</a>
+            <a id="last" href="https://www.ebay.in/pages/help/account/cookies-web-beacons.html">Cookies</a>
+            <a>.</a>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- calender script -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="../js/evo-calendar.js"></script>
+<script src="../js/upcoming.js"></script>
+<script>
+    $(document).ready(function() {
+    $('#calendar').evoCalendar({
+        theme:"Royal Navy",
+        calendarEvents: [
+      {
+        id: 'bHay68s', // Event's ID (required)
+        name:"11:00 PM - 12:30 PM", // Event name (required)
+        description: "UNDERSTANDING SELLER", 
+        date: "January/2/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'bHay68sh', // Event's ID (required)
+        name:"3:00 PM - 5:00 PM",
+        description: "UNDERSTANDING SELLER", // Event name (required)
+        date: "January/4/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'bHay68shh', // Event's ID (required)
+        name:"3:00 PM - 5:00 PM",
+        description: "UNDERSTANDING SELLER", // Event name (required)
+        date: "February/4/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'bHay68sh', // Event's ID (required)
+        name:"11:00 PM - 12:30 PM",
+        description: "UNDERSTANDING SELLER", // Event name (required)
+        date: "February/2/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'bHay68shh', // Event's ID (required)
+        name:"11:00 PM - 12:30 PM",
+        description: "EBAY STORES & BENEFITS", // Event name (required)
+        date: "February/9/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'bHay68shhhh', // Event's ID (required)
+        name:"11:00 PM - 12:30 PM",
+        description: "UNDERSTANDING SELLER", // Event name (required)
+        date: "February/11/2022", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      // {
+      //   name: "",
+      //   badge: "3:00pm - 4:00pm", // Event badge (optional)
+      //   date: ["February/13/2020", "February/15/2020"], // Date range
+      //   description: "UNDERSTANDING SELLER", // Event description (optional)
+      //   type: "event",
+      //   color: "#63d867" // Event custom color (optional)
+      // },
+      // {
+      //   name: "Vacation Leave",
+      //   badge: "02/13 - 02/15", // Event badge (optional)
+      //   date: ["February/04/2022", "February/15/2022"], // Date range
+      //   description: "UNDERSTANDING SELLER PANEL", // Event description (optional)
+      //   type: "event",
+      //   color: "#63d867" // Event custom color (optional)
+      // },
+
+    ]
+    })
+})
+</script>
