@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Market Sans Regular", Sans-serif;
+      }
+      #gride {
+        width: 1220px;
+        margin: 50px 150px 0px 0px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: auto;
+        gap: -50px;
+      }
+      .p {
+        vertical-align: left;
+        padding: 12px 19px;
+        margin: 0px 5px;
+        font-size: 20px;
+        border-radius: 50%;
+        border: transparent;
+        color: rgb(131, 126, 126);
+        font-weight: 800;
+      }
+      .p:hover {
+        border: #2b0eae;
+        background-color: #2b0eae;
+        color: #fff;
+        box-shadow: rgba(99, 99, 99, 0.2) 2px 5px 9px 4px;
+      }
+      .col {
+        color: #2b0eae;
+        font-family: "Market Sans Bold", Sans-serif;
+      }
+      #div1 {
+        width: fit-content;
+        height: auto;
+      }
+      #div1 li {
+        font-size: 15px;
+        margin-left: -20px;
+        line-height: 24px;
+      }
+      .ff {
+        display: flex;
+      }
+      #phone {
+        font-size: 100%;
+        margin: 0;
+        color: #111;
+        font-family: "NonBreakingSpaceOverride", "Hoefler Text", Garamond,
+          "Times New Roman", serif;
+        font-weight: 400;
+
+        box-sizing: content-box;
+      }
+      #element-container {
+        margin: 0 0 0 -45px;
+        padding: 12px;
+        background-color: rgb(224, 224, 226);
+      }
+      .h2 {
+        color: #41413f;
+        font-family: "Market Sans", Sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.2em;
+        letter-spacing: 0px;
+        margin: 0px 0px;
+      }
+      .input {
+        border: 1px solid transparent;
+        border-bottom: 1px solid #111;
+        margin: 20px 0px;
+      }
+      #int {
+        text-align: center;
+        height: 40px;
+        width: 100%;
+        background-color: #3665f3;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 18px;
+        border-color: #3665f3;
+      }
+      .container {
+        height: 210px;
+        width: 250px;
+        margin: 15px 25px;
+        box-shadow: rgba(0 0 0 0.35) 0px 5 px 15px;
+      }
+      #prachi-2 {
+        border: 1px solid #fff;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 90px;
+        margin-top: 20px;
+      }
+      #button-1 {
+        background-color: #2b0eae;
+        color: rgb(224, 224, 226);
+      }
+      /* 
+heading navbar part */
+      #headingnavbar {
+        display: flex;
+        width: 95%;
+        height: 110px;
+        margin: auto;
+        margin-top: 50px;
+        margin-left: 5px;
+        margin-bottom: 70px;
+      }
+
+      #first {
+        width: 70%;
+        height: 100px;
+
+        background-color: #121258;
+        border-top: 1px solid black;
+        padding: 20px;
+      }
+      #second {
+        width: 200px;
+        height: 140px;
+        background-color: #082ea1;
+      }
+      #thirdone {
+        width: 180px;
+        height: 70px;
+        background-color: #3665f3;
+      }
+      #thirdsecond {
+        width: 180px;
+        height: 70px;
+        background-color: #5178ec;
+      }
+
+      h1 {
+        color: #ffffff;
+        font-family: "Market Sans Bold", Sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+      }
+      #prachi-1 {
+        margin-right: 10px;
+      }
+      /* footer */
+      #div9 {
+        padding-top: 80px;
+        border: 1px solid rgb(255, 255, 255);
+        height: fit-content;
+        font-family: sans-serif;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: auto;
+      }
+      /* Footer Part-1 */
+      #footer-p1 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        justify-content: space-evenly;
+      }
+      /* Footer Part-1 ancor tag adjustment */
+      #footer-p1 a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #413d3d;
+        font-weight: 600;
+      }
+      /* Footer Part-2 */
+      /* Facebook , Instagram and Linkedin href and logo adjustment */
+      #footer-p2 {
+        display: flex;
+        margin: auto;
+        gap: 10px;
+      }
+      /* Footer Part-3 */
+      #footer-p3 {
+        margin: auto;
+        font-size: 12px;
+        color: #696666;
+      }
+      /* Footer Part-3 links adjustment */
+      #last {
+        text-decoration: none;
+        color: rgb(27, 121, 184);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- heading navbar -->
+    <div id="headingnavbar">
+      <div id="first"><h1>Start Selling Globally With eBay</h1></div>
+      <div id="second"></div>
+      <div>
+        <div id="thirdone"></div>
+        <div id="thirdsecond"></div>
+      </div>
+    </div>
+    <div id="gride">
+      <div id="prachi-1">
+        <div>
+          <h1 style="color: rgb(82, 77, 77)">
+            How to create an eBay seller account Step-by-Step Guide:
+          </h1>
+        </div>
+        <div class="tablist" role="tablist">
+          <button class="p" id="button-1" onclick="submit" role="tablist">
+            1
+          </button>
+          <button class="p" onclick="submit">2</button>
+          <button class="p" onclick="submit">3</button>
+          <button class="p" onclick="submit">4</button>
+          <button class="p" onclick="submit">5</button>
+          <button class="p" onclick="submit">6</button>
+          <button class="p" onclick="submit">7</button>
+          <button class="p" onclick="submit">8</button>
+        </div>
+        <div>
+          <h1 style="font-size: 30px; font: weight 700" class="col">STEP 1</h1>
+          <h2 style="font-size: 20px; font: weight 500" class="col">
+            Submit Your Contact Details & Business Information
+          </h2>
+        </div>
+        <section class="ff">
+          <div id="div1">
+            <p>Please fill in your details in the form alongside</p>
+            <h5>Mandatory fields are:</h5>
+            <ul>
+              <li>Mobile number</li>
+              <li>Email ID</li>
+              <li>Contact person name</li>
+              <li>Nature of business</li>
+              <li>Product category</li>
+              <li>Number of products you have to sell</li>
+              <li>
+                PAN
+                <a href="page2.html">
+                  <input
+                    style="
+                      border-radius: 50%;
+                      font-size: 16px;
+                      background-color: #41413f;
+                      color: #b1b1ab;
+                      border-color: #41413f;
+                    "
+                    type="submit"
+                    value="i"
+                /></a>
+              </li>
+              <li>
+                GSTIN
+                <input
+                  style="
+                    border-radius: 50%;
+                    font-size: 16px;
+                    background-color: #41413f;
+                    color: #b1b1ab;
+                    border-color: #41413f;
+                  "
+                  type="submit"
+                  value="i"
+                />
+              </li>
+              <li>
+                IEC
+                <a href="page3.html">
+                  <input
+                    style="
+                      border-radius: 50%;
+                      font-size: 16px;
+                      background-color: #41413f;
+                      color: #b1b1ab;
+                      border-color: #41413f;
+                    "
+                    type="submit"
+                    value="i"
+                /></a>
+              </li>
+            </ul>
+            <h4>Click "Next"</h4>
+            <p style="font-size: 15px">
+              <i
+                >Note: If you do not have PAN, GSTIN or IEC, please click on the
+                symbol next to the respective field to know details.</i
+              >
+            </p>
+          </div>
+          <div id="div2">
+            <img
+              height="320"
+              src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/step-1-start-selling.webp"
+            />
+          </div>
+        </section>
+      </div>
+      <div id="prachi-2">
+        <div class="container">
+          <div id="element-container">
+            <h2 class="h2">
+              Submit your contact details and business information
+            </h2>
+          </div>
+          <div>
+            <br />
+            <div class="cut"></div>
+            <form>
+              <div>
+                <input
+                  id="number"
+                  class="input"
+                  type="text"
+                  title="Please enter 10 digit mobile number"
+                  pattern="[1-9]{1}[0-9]{9}"
+                  name="mobile"
+                  placeholder="Mobile Number* "
+                  value=""
+                  required=""
+                  {_updatereadonly_}=""
+                />
+                <a href="page4.html">
+                  <input
+                    id="int"
+                    type="button"
+                    value="Send
+                OTP"
+                  />
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Div-9----Footer-->
+    <div id="div9">
+      <!-- Part-1 of footer -->
+      <div id="footer-p1">
+        <a href="aboutUs.html">About eBay</a>
+        <a href="startSelling.html">Start Selling</a>
+        <a href="sellerUpdates.html">Seller Community</a>
+        <a href="https://sellglobal.ebay.in/seller-center/training-sessions/"
+          >Training sessions</a
+        >
+        <a href="https://sellglobal.ebay.in/seller-center/faqs/">FAQ</a>
+      </div>
+      <!-- Part-2 of footer -->
+      <div id="footer-p2">
+        <!-- Facebook , Instagram and Linkedin href and logo adjustment -->
+        <div class="facebook">
+          <a href="https://www.facebook.com/ebaysellersindia" target="_blank">
+            <img
+              width="30"
+              height="30"
+              src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/facebook-1.png"
+              class=""
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="instagram">
+          <a href="https://www.instagram.com/_mad___boxer_/" target="_blank">
+            <img
+              width="30"
+              height="30"
+              src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/instagram-1.png"
+              class=""
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="linkedin">
+          <a
+            href="https://www.linkedin.com/in/arshad-khan-350206154"
+            target="_blank"
+          >
+            <img
+              width="30"
+              height="30"
+              src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/linkedin-1.png"
+              class=""
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Part-3 of footer -->
+      <div id="footer-p3">
+        <!-- links for User Agreement and all -->
+        <!-- © 2021 eBay Inc. User Agreement, User Privacy Notice, Cookies. -->
+        <a>© 2021 eBay Inc.</a>
+        <a
+          id="last"
+          href="https://www.ebay.in/pages/help/policies/user-agreement.html"
+          >User Agreement</a
+        >
+        <a>,</a>
+        <a
+          id="last"
+          href="https://www.ebay.in/pages/help/policies/privacy-policy.html"
+          >User Privacy Notice</a
+        >
+        <a>,</a>
+        <a
+          id="last"
+          href="https://www.ebay.in/pages/help/account/cookies-web-beacons.html"
+          >Cookies</a
+        >
+        <a>.</a>
+      </div>
+    </div>
+  </body>
+</html>
