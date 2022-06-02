@@ -21,6 +21,7 @@ Established in 1995, eBay, the world’s biggest online marketplace created a po
 ## Features
 - Media query for All Size Screen.
 - Navbars with its Pop-Ups.
+- Sliding Video
 - Review page for different categories.
 - Detailed product preview page
 - Payment Page.
@@ -30,6 +31,24 @@ Established in 1995, eBay, the world’s biggest online marketplace created a po
 ### 1. Landing page
 
 ![Home page](./ebayHome.png)
+
+### 2. Navbar Popup
+
+![Home page](https://miro.medium.com/max/875/1*t1tr_CQ6JV7w7cwNQohhnA.jpeg)
+
+### 3. Event Setting
+
+![Home page](https://miro.medium.com/max/875/1*pGVzotl1uyVXm1PQBird4A.jpeg)
+
+### 4. Why get an ebay store page
+
+![Home page]([./ebayHome.png](https://miro.medium.com/max/875/1*sLFqeVl2Hxo1qzPpG8jE5Q.jpeg))
+
+### 5. Registration page
+
+![Home page]([./ebayHome.png](https://miro.medium.com/max/875/1*whvE5bRYtrXgVLLGqNaCww.jpeg))
+
+
 
 ## Challenges
 - The approach of the project was that we saw that are 6 navbars that are attached to the homepage. So that we have dived the project into parts.
