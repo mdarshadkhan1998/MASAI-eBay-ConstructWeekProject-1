@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start Selling</title>
+    <style>
+      * {
+        font-family: "Market Sans Regular", Sans-serif;
+      }
+      #gride {
+        width: 1220px;
+        margin: 50px 150px 0px 0px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: auto;
+      }
+      .p {
+        vertical-align: left;
+        padding: 12px 19px;
+        margin: 0px 5px;
+        font-size: 20px;
+        border-radius: 50%;
+        border: transparent;
+        color: rgb(131, 126, 126);
+        font-weight: 800;
+      }
+      .p:hover {
+        border: #2b0eae;
+        background-color: #2b0eae;
+        color: #fff;
+        box-shadow: rgba(99, 99, 99, 0.2) 2px 5px 9px 4px;
+      }
+      .col {
+        color: #2b0eae;
+        font-family: "Market Sans Bold", Sans-serif;
+      }
+      #div1 {
+        width: fit-content;
+        height: auto;
+      }
+      #div1 li {
+        font-size: 15px;
+        margin-left: -20px;
+        line-height: 24px;
+      }
+      .ff {
+        display: flex;
+      }
+      #phone {
+        font-size: 100%;
+        margin: 0;
+        color: #111;
+        font-family: "NonBreakingSpaceOverride", "Hoefler Text", Garamond,
+          "Times New Roman", serif;
+        font-weight: 400;
+
+        box-sizing: content-box;
+      }
+      #element-container {
+        margin: 0 0 0 -45px;
+        padding: 12px;
+        background-color: rgb(224, 224, 226);
+      }
+      .h2 {
+        color: #41413f;
+        font-family: "Market Sans", Sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.2em;
+        letter-spacing: 0px;
+        margin: 0px 0px;
+      }
+      /* .input{
+        border: 1px solid transparent;
+        border-bottom: 1px solid #111;        
+        margin: 20px 0px;        
+    } */
+      #int {
+        text-align: center;
+        height: 40px;
+        width: 100%;
+        background-color: #3665f3;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 18px;
+        border-color: #3665f3;
+      }
+
+      #prachi-2 {
+        border: 1px solid #fff;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 90px;
+        margin-top: 50px;
+      }
+      #button-1 {
+        background-color: #2b0eae;
+        color: rgb(224, 224, 226);
+      }
+      /* 
+heading navbar part */
+      #headingnavbar {
+        display: flex;
+        width: 100%;
+        height: 110px;
+        margin: auto;
+        margin-top: 0px;
+        margin-left: 5px;
+        margin-bottom: 70px;
+      }
+
+      #first {
+        width: 70%;
+        height: 100px;
+
+        background-color: #121258;
+        border-top: 1px solid black;
+        padding: 20px;
+      }
+      #second {
+        width: 200px;
+        height: 140px;
+        background-color: #082ea1;
+      }
+      #thirdone {
+        width: 180px;
+        height: 70px;
+        background-color: #3665f3;
+      }
+      #thirdsecond {
+        width: 180px;
+        height: 70px;
+        background-color: #5178ec;
+      }
+
+      h1 {
+        color: #ffffff;
+        font-family: "Market Sans Bold", Sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+      }
+      #prachi-1 {
+        margin-right: 10px;
+      }
+      .container {
+        height: 510px;
+        width: 250px;
+        margin: 15px 30px;
+        box-shadow: rgba(0 0 0 0.35) 0px 5 px 15px;
+      }
+      /* .container{
+        height: 210px;
+        width:250px;
+         margin: 15px 25px ;
+         box-shadow:rgba(0 0 0 0.35) 0px 5 px 15px;
+    } */
+      .element-container {
+        margin: 0 0 0 -45px;
+        padding: 12px;
+        background-color: rgb(224, 224, 226);
+      }
+      .h2 {
+        color: #41413f;
+        font-family: "Market Sans", Sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.2em;
+        letter-spacing: 0px;
+        margin: 0px 0px;
+      }
+      /* .input{
+        border: 1px solid transparent;
+        border-bottom: 1px solid rgb(75, 73, 73);        
+        margin: 10px 0px 0px 0px;   
+        font-size: 12px;  
+        line-height:28px;   
+    } */
+      .input2 {
+        margin-bottom: 20px;
+        font-size: 12px;
+      }
+      #int {
+        text-align: center;
+        height: 40px;
+        width: 100%;
+        background-color: #3665f3;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 18px;
+        border-color: #3665f3;
+        margin-top: 22px;
+      }
+      #prachi-2 {
+        border: 1px solid #fff;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: fit-content;
+        width: fit-content;
+        margin-right: 0px;
+      }
+
+      .element-container {
+        margin: 0 0 0 -45px;
+        padding: 12px;
+        background-color: rgb(224, 224, 226);
+      }
+      .h2 {
+        color: #41413f;
+        font-family: "Market Sans", Sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.2em;
+        letter-spacing: 0px;
+        margin: 0px 0px;
+      }
+      .c1 {
+        color: #767676;
+      }
+      .input2 {
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+      #prachi-3 {
+        border: 1px solid #fff;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: fit-content;
+        width: fit-content;
+        margin-left: 90px;
+        margin-top: 30px;
+      }
+      .container {
+        height: 510px;
+        width: 250px;
+        margin: 15px 30px;
+        box-shadow: rgba(0 0 0 0.35) 0px 5 px 15px;
+      }
+      #p-last {
+        font-size: 10px;
+      }
+      #int-2 {
+        text-align: center;
+        height: 40px;
+        width: 100%;
+        background-color: #3665f3;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 18px;
+        border-color: #3665f3;
+      }
+            /* footer */
+            #div9 {
+        padding-top: 80px;
+        border: 1px solid rgb(255, 255, 255);
+        height: fit-content;
+        font-family: sans-serif;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: auto;
+      }
+      /* Footer Part-1 */
+      #footer-p1 {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        justify-content: space-evenly;
+      }
+      /* Footer Part-1 ancor tag adjustment */
+      #footer-p1 a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #413d3d;
+        font-weight: 600;
+      }
+      /* Footer Part-2 */
+      /* Facebook , Instagram and Linkedin href and logo adjustment */
+      #footer-p2 {
+        display: flex;
+        margin: auto;
+        gap: 10px;
+      }
+      /* Footer Part-3 */
+      #footer-p3 {
+        margin: auto;
+        font-size: 12px;
+        color: #696666;
+      }
+      /* Footer Part-3 links adjustment */
+      #last {
+        text-decoration: none;
+        color: rgb(27, 121, 184);
+      }
+    </style>
+ <link rel="stylesheet" href="/css/index.css" />
+ <link rel="stylesheet" href="/css/popup1.css"/>
+ <link rel="stylesheet" href="/css/popup2.css"/>
+ <link rel="stylesheet" href="/css/popup3.css"/>
+ <link rel="stylesheet" href="/css/popup4.css"/>
+ <link rel="stylesheet" href="/css/popup5.css"/>
+ <link rel="stylesheet" href="/css/popup6.css"/>
+</head>
+<body>
+ 
+ <div id="frame">
+   <!-- div-1----HEADER -->
+       <div id="div1" class="header" >
+           <!-- Nav Bar Header -->
+           <!-- Ebay Logo and START SELLING Button -->
+           <div id="navBar1">
+               <!-- Ebay Logo -->
+               <div id="ebayLogo">
+                   <a href="/index.html"><img id="logo" title="eBay Logo" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/EBAY-LOGO.webp" width="190" height="98"/></a>                
+               </div>
+               <!-- START SELLING Button -->
+               <div id="start">
+                   <a href="/page1.html"   title="Register Here" id="startSelling">START SELLING</a>
+               </div>
+           </div>
+           <!-- Links of options on NAV BAR -->
+          
+      
+   
+   
+   
+       <div class="navbar">
+           
+   
+   
+           <div class="dropdown">
+            <button class="dropbtn"><a id="navSetting">Getting Started </a><i class="fa fa-caret-down"></i></button>
+               <div class="dropdown-content">
+                 <div class="row">
+                   <div class="column">
+                       <div >
+                           <a><img  width="300" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/why-sell-on-ebay-menu.webp"/></a>
+                           <a id="btn1" href="gettingStarted.html">Why Sell On eBay</a>
+                       </div>
+                       <div >
+                           <a><img  width="300"src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/how-to-sell-on-ebay-1.webp"/></a>
+                           <a id="btn1" href="page1.html">How to Sell Globally On ebay</a>
+                       </div>
+                       
+                       <div>
+                           <a><img  width="300"src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/selling-fees.png"></a>
+                           <a id="btn1" href="https://sellglobal.ebay.in/seller-center/selling-fee/">Selling Fees</a>
+                       </div>
+                       <div>
+                           <a><img  width="300"src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/faq-1.webp"></a>
+                           <a id="btn1" href="https://sellglobal.ebay.in/seller-center/faqs/">FAQ'S</a>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+             </div> 
+   
+   
+   
+               <!-- Seller Updates -->
+   
+   
+               
+             <div class="dropdown2">
+              <button class="dropbtn2"><a id="navSetting">Seller Updates</a><i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content2">
+                 <div class="row2">
+                   <div class="column2">
+                       <div>
+                           <a href=""><img  width="350" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/training-calendar.webp"/></a>
+                           <a id="btn2" href="sellerUpdates.html">Seller Training Section</a>
+                       </div>
+                       <div>
+                           <a href="#"><img  width="350"src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/seller-community-1.webp"/></a>
+                           <a id="btn2" href="https://community.ebay.in/">Seller Community</a>
+                       </div>
+                       <div>
+                           <a href="#"><img  width="350"src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/Announcements.webp"></a>
+                           <a id="btn2" href="https://community.ebay.in/t5/eBay-Announcements/bg-p/eBayAnnouncements">Seller Announcements</a>
+                       </div>
+                   </div>
+                 </div>
+               </div>
+             </div> 
+   
+             <div class="dropdown3">
+              <button class="dropbtn3"><a id="navSetting">About Us</a><i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content3">
+                 <div class="row3">
+                   <div class="column3">
+                       <a  href="https://sellglobal.ebay.in/seller-center/about-ebay/"><img id="arshad" width="100%" height="auto"src="/images/popAbout.png" alt=""></a>
+                   </div>
+                 </div>
+               </div>
+             </div> 
+     
+   
+               <!-- product and listings -->
+   
+               
+             <div class="dropdown4">
+              <button class="dropbtn4"><a id="navSetting">Products Listing</a><i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content4">
+                 <div class="row4">
+                   <div class="column4">
+                       <h3><u>Create Listing</u></h3>
+                       <a href="https://sellglobal.ebay.in/seller-center/guide-to-creating-your-first-ebay-listing/">Guide to Creating Your First eBay Listing</a>
+                       <a href="https://sellglobal.ebay.in/seller-center/guide-to-creating-your-first-ebay-listing/">Listing Types & Durations</a>
+                       <a href="https://sellglobal.ebay.in/seller-center/guide-to-creating-your-first-ebay-listing/">Create the Perfect Listing</a>
+                       <a href="https://sellglobal.ebay.in/seller-center/guide-to-creating-your-first-ebay-listing/">Multi-Variation and Multi-quantty Listing</a>
+                       <a href="https://sellglobal.ebay.in/seller-center/guide-to-creating-your-first-ebay-listing/">Varified Right Owner Program</a>
+                       <a href="https://sellglobal.ebay.in/seller-center/guide-to-creating-your-first-ebay-listing/">Third Party ServiceProviders</a>
+                     </div>
+                     <div class="column4"> 
+                       <h3><u>Manage Listing</u></h3>
+                       <a href="https://sellglobal.ebay.in/seller-center/selling-limits-zero-insertion-fee/">Selling limits & Zero insertion fees</a>
+                       <a href="#">Photo Tips</a>
+                       <a href="#">Product Identifiers</a>
+                       <a href="#">Improve search ranking with Item Specifics</a>
+                       <a href="#">Item description best practices</a>
+                       <a href="#">Listing Upgrades</a>
+                       <a href="#">Sellers Updates</a>
+                       <a href="#">Managing Time Away Setting</a>
+                     </div>                 
+                 </div>
+               </div>
+             </div> 
+   
+   
+               <!-- shipping and payments -->
+   
+   
+   
+   
+             <div class="dropdown5">
+              <button class="dropbtn5"><a id="navSetting">Shipping & Promotion</a><i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content5">
+                 <div class="row5">
+                   <div class="column5">
+                       <h3><u>Shipping</u></h3>
+                       <a href="https://sellglobal.ebay.in/seller-center/introduction-to-cross-border-shipping/">Introduction to Cross Border Shipping</a>
+                       <a href="#">Packing and Shipping Tips</a>
+                       <a href="#">Shipping Options</a>
+                       <a href="#">Tracking Your Orders</a>
+                     </div>
+                     <div class="column5"> 
+                       <h3><u>Return</u></h3>
+                       <a href="https://sellglobal.ebay.in/seller-center/handling-and-automating-returns/">Handling and Automating Returns</a>
+                       <a href="#">The Benefits of Accepting Returns</a>
+                       <a href="#">How to Minimise Returns</a>
+                     </div>
+                     <div class="column5">
+                       <h3><u>Payment & Fees</u></h3>
+                       <a href="https://sellglobal.ebay.in/seller-center/fee-and-features/">Fee and Features</a>
+                       <a href="#">Getting paid from buyer</a>
+                       <a href="#">Payment Holds</a>
+                       <a href="#">Send Your Buyers an Invoice</a>
+                       <a href="#">How to pay eBay invoice</a>
+                       <a href="#">Tax Information</a>
+                     </div>
+                 </div>
+               </div>
+             </div> 
+   
+   
+   
+   <!-- Marketing & Promotions -->
+   
+   
+   
+           <div class="dropdown6">
+            <button class="dropbtn6"><a id="navSetting">Marketing & Promotions</a><i class="fa fa-caret-down"></i></button>
+               <div class="dropdown-content6">
+                 <div class="row6">
+                   <div class="column6">
+                       <h3><u>Store</u></h3>
+                       <a href="/why_get_an_ebay_store.html">Why get an eBay Store</a>
+                       <a href="/why_get_an_ebay_store.html">Setting up your Store</a>
+                       <a href="/why_get_an_ebay_store.html">Store subscription & fees</a>
+                       <a href="/why_get_an_ebay_store.html">Unsubscribing eBay store</a>
+                     </div>
+                     <div class="column6"> 
+                       <h3><u>Promotions</u></h3>
+                       <a href="/promoted_listings.html">Increase visibility with Promoted Listings</a>
+                       <a href="/promoted_listings.html">Promote and Profit with Promotions Manager</a>
+                       <a href="/promoted_listings.html">Promotional Strategies to Help You Sell More</a>
+                       <a href="/promoted_listings.html">Volume Pricing</a>
+                       <a href="/promoted_listings.html">Sending Offers to Buyers</a>
+                       <a href="/promoted_listings.html">Boost Traffic with SEO</a>
+                       <a href="/promoted_listings.html">Social Media</a>
+                     </div>
+                     <div class="column6">
+                       <h3><u>eBay Services & Tools</u></h3>
+                       <a href="/promoted_listings.html">Terapeak Research Tool</a>
+                       <a href="/promoted_listings.html">Corridor Expansion</a>
+                       <a href="/promoted_listings.html">eBaymag</a>
+                     </div>
+                 </div>
+               </div>
+             </div> 
+   
+   
+   
+   
+          
+                    
+                   
+       
+               <!-- end -->
+   
+   
+         </div>
+       </div>
+    <!-- heading navbar -->
+    <div id="headingnavbar">
+      <div id="first"><h1>Start Selling Globally With eBay</h1></div>
+      <div id="second"></div>
+      <div>
+        <div id="thirdone"></div>
+        <div id="thirdsecond"></div>
+      </div>
+    </div>
+    <div id="gride">
+      <div id="prachi-1">
+        <div>
+          <h1 style="color: rgb(82, 77, 77)">
+            How to create an eBay seller account Step-by-Step Guide:
+          </h1>
+        </div>
+        <div class="tablist" role="tablist">
+          <button class="p" id="button-1" onclick="submit" role="tablist">
+            1
+          </button>
+          <button class="p" onclick="submit">2</button>
+          <button class="p" onclick="submit">3</button>
+          <button class="p" onclick="submit">4</button>
+          <button class="p" onclick="submit">5</button>
+          <button class="p" onclick="submit">6</button>
+          <button class="p" onclick="submit">7</button>
+          <button class="p" onclick="submit">8</button>
+        </div>
+        <div>
+          <h1 style="font-size: 30px; font: weight 700" class="col">STEP 1</h1>
+          <h2 style="font-size: 20px; font: weight 500" class="col">
+            Submit Your Contact Details & Business Information
+          </h2>
+        </div>
+        <section class="ff">
+          <div id="div1">
+            <p>Please fill in your details in the form alongside</p>
+            <h5>Mandatory fields are:</h5>
+            <ul>
+              <li>Mobile number</li>
+              <li>Email ID</li>
+              <li>Contact person name</li>
+              <li>Nature of business</li>
+              <li>Product category</li>
+              <li>Number of products you have to sell</li>
+              <li>
+                PAN
+                <input
+                  style="
+                    border-radius: 50%;
+                    font-size: 16px;
+                    background-color: #41413f;
+                    color: #b1b1ab;
+                    border-color: #41413f;
+                  "
+                  type="submit"
+                  value="i"
+                />
+              </li>
+              <li>
+                GSTIN
+                <input
+                  style="
+                    border-radius: 50%;
+                    font-size: 16px;
+                    background-color: #41413f;
+                    color: #b1b1ab;
+                    border-color: #41413f;
+                  "
+                  type="submit"
+                  value="i"
+                />
+              </li>
+              <li>
+                IEC
+                <input
+                  style="
+                    border-radius: 50%;
+                    font-size: 16px;
+                    background-color: #41413f;
+                    color: #b1b1ab;
+                    border-color: #41413f;
+                  "
+                  type="submit"
+                  value="i"
+                />
+              </li>
+            </ul>
+            <h4>Click "Next"</h4>
+            <p style="font-size: 15px">
+              <i
+                >Note: If you do not have PAN, GSTIN or IEC, please click on the
+                symbol next to the respective field to know details.</i
+              >
+            </p>
+          </div>
+          <div id="div2">
+            <img
+              height="320"
+              src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/step-1-start-selling.webp"
+            />
+          </div>
+        </section>
+      </div>
+      <div id="prachi-3">
+        <div class="container">
+          <div class="element-container">
+            <h2 class="h2">
+              Submit your contact details and business information
+            </h2>
+          </div>
+          <div>
+            <br />
+            <!-- <div class="cut"></div> -->
+            <form>
+              <div>
+                <p class="input2 c1">Nature of business*</p>
+                <select
+                  name="Select:Nature of business"
+                  required=""
+                  aria-required="true"
+                  style="width: 100%"
+                >
+                  <option
+                    class="c1"
+                    value=""
+                    selected="selected"
+                    disabled="disabled"
+                  >
+                    Select: Nature of business
+                  </option>
+                  <option value="">Retailer/Trader</option>
+                  <option value="">Wholesaler/Distributor</option>
+                  <option value="">Manufacture/Brand Owner</option>
+                  <option value="">Exporter</option>
+                </select>
+                <br />
+                <br />
+                <p class="input2 c1">Category*</p>
+                <select
+                  name="category"
+                  required=""
+                  aria-required="true"
+                  style="width: 100%"
+                  autochecked="Auto Parts ; Accessories"
+                >
+                  <option value="" selected="selected" disabled="disabled">
+                    Select: Category
+                  </option>
+                  <option value="Auto Parts ; Accessories">
+                    Auto Parts ; Accessories
+                  </option>
+                  <option value="Ayurvedic Remedies ; Beauty Products">
+                    Ayurvedic Remedies ; Beauty Products
+                  </option>
+                  <option value="Business ; Industrial">
+                    Business ; Industrial
+                  </option>
+                  <option value="Cellphone, Accessories ; Consumer Electronics">
+                    Cellphone, Accessories ; Consumer Electronics
+                  </option>
+                  <option value="Clothing, Bag ; Accessories">
+                    Clothing, Bag ; Accessories
+                  </option>
+                  <option value="Fashion Jewelry">Fashion Jewelry</option>
+                  <option value="Fine Jewelry">Fine Jewelry</option>
+                  <option value="Footwear">Footwear</option>
+                  <option value="Healthcare, Lab ; Dental">
+                    Healthcare, Lab ; Dental
+                  </option>
+                  <option value="Home, Bedding ; Kitchenware">
+                    Home, Bedding ; Kitchenware
+                  </option>
+                  <option value="Loose Diamonds ; Gemstones">
+                    Loose Diamonds ; Gemstones
+                  </option>
+                  <option value="Sporting Goods ; Toys">
+                    Sporting Goods ; Toys
+                  </option>
+                  <option value="Others">Others</option>
+                </select>
+                <br />
+                <br />
+                <p class="input2 c1">No of Products to sell*</p>
+                <div class="input2">
+                  <input
+                    type="radio"
+                    name="noofproduct"
+                    value="0-50"
+                    autochecked="0-50"
+                  /><span class="c1">0-50</span>
+                  <input
+                    type="radio"
+                    name="noofproduct"
+                    value="51-100"
+                    autochecked="51-100"
+                  /><span class="c1">51-100</span>
+                  <input
+                    type="radio"
+                    name="noofproduct"
+                    value="101-500"
+                    autochecked="101-500"
+                  /><span class="c1">101-500</span>
+                  <input
+                    type="radio"
+                    name="noofproduct"
+                    value="500+"
+                    autochecked="500+"
+                  /><span class="c1">500+</span>
+                </div>
+                <br />
+                <table>
+                  <thead></thead>
+                  <tbody class="c1 input2">
+                    <tr>
+                      <td>
+                        PAN*:
+                        <input
+                          style="
+                            border-radius: 50%;
+                            font-size: 16px;
+                            background-color: #41413f;
+                            color: #b1b1ab;
+                            border-color: #41413f;
+                          "
+                          type="submit"
+                          value="i"
+                        />
+                      </td>
+                      <td>
+                        <input
+                          type="radio"
+                          name="condition"
+                          value="yes"
+                          autochecked="Yes"
+                        /><span>Yes</span>
+                      </td>
+                      <td>
+                        <input
+                          type="radio"
+                          name="condition"
+                          value="no"
+                          autochecked="No"
+                        /><span>No</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        GSTIN*:
+                        <input
+                          style="
+                            border-radius: 50%;
+                            font-size: 16px;
+                            background-color: #41413f;
+                            color: #b1b1ab;
+                            border-color: #41413f;
+                          "
+                          type="submit"
+                          value="i"
+                        />
+                      </td>
+                      <td>
+                        <input
+                          type="radio"
+                          name="condition"
+                          value="yes"
+                          autochecked="Yes"
+                        /><span>Yes</span>
+                      </td>
+                      <td>
+                        <input
+                          type="radio"
+                          name="condition"
+                          value="no"
+                          autochecked="No"
+                        /><span>No</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        IEC*:
+                        <input
+                          style="
+                            border-radius: 50%;
+                            font-size: 16px;
+                            background-color: #41413f;
+                            color: #b1b1ab;
+                            border-color: #41413f;
+                          "
+                          type="submit"
+                          value="i"
+                        />
+                      </td>
+                      <td>
+                        <input
+                          type="radio"
+                          name="condition"
+                          value="yes"
+                          autochecked="Yes"
+                        /><span>Yes</span>
+                      </td>
+                      <td>
+                        <input
+                          type="radio"
+                          name="condition"
+                          value="no"
+                          autochecked="No"
+                        /><span>No</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="c1" id="p-last">
+                  By clicking on 'Next button', you constent to provide all
+                  mandatory documents required for your onboarding to sell on
+                  ebay and to be contacted via email/phone/SMS/Whatsapp by ebay
+                  or its authorized service providers.
+                </p>
+                <a href="page6.html"
+                  ><input id="int-2" type="button" value="Next"
+                /></a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+       <!-- Div-9----Footer-->
+    <div id="div9">
+      <!-- Part-1 of footer -->
+      <div id="footer-p1">
+          <a href="/sellerUpdates.html">About eBay</a>
+          <a href="/page1.html">Start Selling</a>
+          <a href="/sellerUpdates.html">Seller Community</a>
+          <a href="https://sellglobal.ebay.in/seller-center/training-sessions/">Training sessions</a>
+          <a href="https://sellglobal.ebay.in/seller-center/faqs/">FAQ</a>
+      </div>
+      <!-- Part-2 of footer -->
+      <div id="footer-p2">
+          <!-- Facebook , Instagram and Linkedin href and logo adjustment -->
+          <div class="facebook">
+              <a href="https://www.facebook.com/ebaysellersindia" target="_blank">
+                  <img width="30" height="30" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/facebook-1.png" class="" alt="" >								
+              </a>
+          </div>
+          
+          <div class="instagram">
+              <a href="https://www.instagram.com/_mad___boxer_/" target="_blank">
+                  <img width="30" height="30" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/instagram-1.png" class="" alt="" >								
+              </a>
+          </div>
+          <div class="linkedin">
+              <a href="https://www.linkedin.com/in/arshad-khan-350206154" target="_blank">
+                  <img width="30" height="30" src="https://sellglobal.ebay.in/seller-center/wp-content/uploads/2021/11/linkedin-1.png" class="" alt="" >								
+              </a>
+          </div>
+      </div>
+      <!-- Part-3 of footer -->
+      <div id="footer-p3">
+      <!-- links for User Agreement and all -->
+      <!-- © 2021 eBay Inc. User Agreement, User Privacy Notice, Cookies. -->        
+          <a>© 2021 eBay Inc.</a>
+          <a id="last" href="https://www.ebay.in/pages/help/policies/user-agreement.html">User Agreement</a>
+          <a>,</a>
+          <a id="last" href="https://www.ebay.in/pages/help/policies/privacy-policy.html">User Privacy Notice</a>
+          <a>,</a>
+          <a id="last" href="https://www.ebay.in/pages/help/account/cookies-web-beacons.html">Cookies</a>
+          <a>.</a>
+      </div>
+  </div>
+<!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE --><!-- DONE -->    
+
+  </body>
+</html>
+<script src="/js/index.js"></script>

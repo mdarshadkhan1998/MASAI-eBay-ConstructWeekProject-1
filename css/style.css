@@ -1,0 +1,10 @@
+.hero{
+    width: 1200px;
+    height: 100%;
+    background-color: white;
+    margin-top: 50px;
+}
+#calendar{
+    width: 100%;
+    margin: auto;
+}

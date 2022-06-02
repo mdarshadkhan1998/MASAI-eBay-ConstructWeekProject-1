@@ -1,0 +1,103 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .dropbtn2{
+    color: black;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+  }
+  
+  .dropdown2 {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown2 .dropbtn2 {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #a5e3ff
+    ;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content2 .header {
+    background: rgb(255, 255, 255);
+    padding: 16px;
+    color: white;
+  }
+  
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column2 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background-color: #caf3f0    ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column2 a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .column2 a:last-child {
+    background-color: #20207e;
+ color: white;
+ width: fit-content;
+ position: relative;
+ 
+ margin-top: -30px;
+ margin-left: 90px;
+ margin-bottom: 40px;
+ 
+  }
+  .column2 a:last-child:hover{
+    background-color: #ffffff;
+    color: black;
+  }
+  .column2 a:hover {
+    background-color: #C2F2EF;
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

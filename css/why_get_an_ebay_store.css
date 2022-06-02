@@ -1,0 +1,257 @@
+
+/* 
+heading navbar part */
+#headingnavbar{
+    display:flex;
+    width:100%;
+    height:110px;
+    margin-top:0px;
+    margin-left: 10px;
+}
+
+#first{
+    width:100%;
+    height: 100px;
+   
+    background-color: #592E13;
+    border-top: 1px solid black;
+    padding:20px;
+}
+#second{
+    width:180px;
+    height:140px;
+    background-color: rgb(170,84,4)
+}
+#thirdone{
+    width:160px;
+    height:70px;
+    background-color: rgb(229,140,2)
+}
+#thirdsecond{
+    width:160px;
+    height:70px;
+    background-color:rgb(252,242,189)
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: "Market Sans Bold", Sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#belownav{
+    display:flex;
+    justify-content: space-around;
+    width:80%;
+    height:450px;
+    margin: auto;
+    margin-top:100px;
+    margin-left: 100px;
+  
+}
+#firstpart{
+    width:45%;
+    height:400px;
+ 
+}
+/* i{
+   background-color: rgb(247,227,118)
+} */
+.h3{
+    text-align: left;
+    color: #41413F;
+    font-weight:bolder;
+    font-family: "Market Sans Regular", Sans-serif;
+}
+#h3{
+    color: #AA5404;
+    font-family: "Market Sans Regular", Sans-serif;
+    
+}
+p{
+    word-break: break-word;
+    height: 5em ;
+    font-size:16px;
+}
+.after1stimage{
+    text-align: center;
+    height: 2em;
+    margin:auto;
+    margin-top:5px;
+    font-family: "Market Sans Regular", Sans-serif;
+    color: #41413F;
+}
+#gridboxdiv{
+    border:1px solid  coral;
+    padding:-10px;
+}
+#boxes{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,3fr);
+    justify-content: space-around;
+    gap:15px;
+    width:75%;
+    height:350px;
+  
+    margin:auto;
+}
+#boxes > div{
+    width:360px;
+    height:180px;
+    border:1px solid  black;
+    background-color:rgb(252,242,189)
+    
+}
+.circle{
+    border:1px solid black;
+    border-radius:50%;
+    padding:10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#para{
+    text-align:center;
+    margin-top:35px;
+}
+p{
+     
+    text-align: left;
+    color: #592E13;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left:10px;
+    
+}
+.brief_overview{
+    color: #592E13;
+    font-family: "Market Sans Regular", Sans-serif;
+    text-align: center;
+}
+.table1{
+    width:70%;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    justify-content: space-around;
+    display: table;
+    margin:auto;
+}
+.coral{
+      
+      color: #592E13;
+      background-color: #FCF2BD;
+      font-family: "Market Sans Regular", Sans-serif; 
+    font-weight: bold; 
+    width:70%;
+    
+}
+#tbody{
+    font-family: "Market Sans Regular", Sans-serif;
+    font-size: 14px;
+    
+    text-align: center;
+    
+}
+ tr{
+    margin-top:5px;
+    line-height:2em;
+    padding:5px 25px;
+    
+}
+ td{
+    font-weight: 400;
+    line-height: 1.7333;
+    padding: 5px 20px;
+    display: table-cell;
+    vertical-align: inherit;
+    margin-top: 5px;
+    border:0px transparent;
+    
+       
+}
+#row1{
+    background-color: white;
+    
+}
+#row2{
+    background-color: rgb(247,227,118);
+    
+}
+#row3{
+    background-color: white;
+    
+}
+#row4{
+    background-color: rgb(247,227,118);
+    
+}
+.paragraph{
+    width:80%;
+    height: auto;
+   margin-left: 110px;
+   color: #41413F;
+    font-family: "Market Sans Regular", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.brief{
+    color: #592E13;
+    font-family: "Market Sans Regular", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+#table2 >tr > td{
+    border:1px solid black;
+    
+}
+th{
+    /* border:1px solid black; */
+    background-color:#FCF2BD;
+    padding:7px;
+}
+#tabletwo{
+    margin:auto;
+    text-align: center;
+    color: #41413F;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    border-collapse: collapse;
+}
+#aftertable{
+    margin-top:-65px;
+}
+#downdiv{
+  display: flex;
+  justify-content: space-around;
+  margin:auto;
+   width:90%;
+   height:350px;
+}
+#downdiv p{
+    text-align:center;
+}
+.bottom{
+    display:flex;
+    justify-content: space-between;
+    width:500px;
+    height:60px;
+    
+}
+#icons{
+   
+  margin-right: -50px;
+} 
+.bottom > p{
+    color: #41413F;
+    font-size: 15px;
+    overflow-wrap: break-word;
+    font-family: "Market Sans Regular";
+   
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
