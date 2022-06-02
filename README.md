@@ -34,19 +34,19 @@ Established in 1995, eBay, the world’s biggest online marketplace created a po
 
 ### 2. Navbar Popup
 
-![Home page](https://miro.medium.com/max/875/1*t1tr_CQ6JV7w7cwNQohhnA.jpeg)
+![Home page](./popup.png)
 
 ### 3. Event Setting
 
-![Home page](https://miro.medium.com/max/875/1*pGVzotl1uyVXm1PQBird4A.jpeg)
+![Home page](calander.png)
 
 ### 4. Why get an ebay store page
 
-![Home page]([./ebayHome.png](https://miro.medium.com/max/875/1*sLFqeVl2Hxo1qzPpG8jE5Q.jpeg))
+![Home page](why.png)
 
 ### 5. Registration page
 
-![Home page]([./ebayHome.png](https://miro.medium.com/max/875/1*whvE5bRYtrXgVLLGqNaCww.jpeg))
+![Home page](pay.png)
 
 
 
